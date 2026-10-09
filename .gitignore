@@ -1,0 +1,18 @@
+# Java / Maven
+backend/target/
+*.class
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+
+# IDE and operating system files
+.DS_Store
+.vscode/
+.idea/
+
+# Local secrets
+.env
+.env.*
+!*.example
+backend/src/main/resources/application-local.properties
